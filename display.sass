@@ -1,0 +1,15 @@
+=d-display($value)
+  display: $value
+
+=d-display-xs($value)
+  +xs(display, $value)
+
+=d-display-md($value)
+  +md(display, $value)
+
+=d-display-sm($n)
+  $val: 100% / $columns * $n
+   +sm(display, $value)
+
+=d-display-lg($value)
+  +lg(display, $value)

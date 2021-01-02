@@ -1,0 +1,31 @@
+=lg-block()
+  @media screen and (min-width: $break_lg)
+    @content
+
+=md-block()
+  @media screen and (min-width: $break_md)
+    @content
+
+=sm-block()
+  @media screen and (min-width: $break_sm)
+    @content
+
+=xs-block()
+  @media screen and (min-width: $break_xs)
+    @content
+
+=lg($name, $value)
+  @media screen and (min-width: $break_lg)
+    #{$name}: $value
+
+=md($name, $value)
+  @media screen and (min-width: $break_md)
+    #{$name}: $value
+
+=sm($name, $value)
+  @media screen and (min-width: $break_sm)
+    #{$name}: $value
+
+=xs($name, $value)
+  @media screen and (min-width: $break_xs)
+    #{$name}: $value

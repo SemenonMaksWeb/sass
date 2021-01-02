@@ -1,0 +1,19 @@
+=col($n)
+  $val: 100% / $columns * $n
+  width: calc($val - $offset-grid * 2)
+
+=col-xs($n)
+  $val: 100% / $columns * $n
+  +xs(width, calc($val - $offset-grid * 2))
+
+=col-md($n)
+  $val: 100% / $columns * $n
+  +md(width, calc($val - $offset-grid * 2))
+
+=col-sm($n)
+  $val: 100% / $columns * $n
+  +sm(width, calc($val - $offset-grid * 2))
+
+=col-lg($n)
+  $val: 100% / $columns * $n
+  +lg(width, calc($val - $offset-grid * 2))
