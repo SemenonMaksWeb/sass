@@ -1,0 +1,11 @@
+@mixin lh($value)
+  line-height: $value
+
+@mixin lh-xs($value)
+  @include xs(line-height, $value)
+
+@mixin lh-md($value)
+  @include md(line-height, $value)
+
+@mixin lh-lg($value)
+  @include lg(line-height, $value)

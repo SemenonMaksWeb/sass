@@ -1,0 +1,32 @@
+/// высота между строками в абзаце
+/// @example scss
+/// scss - lh(10px);
+/// @example css
+/// css = line-height: 10px;
+/// @name lh
+/// @group line-height
+/// @arg {number} $value -размер высоты между строками
+@mixin lh($value){
+  line-height: $value
+}
+/// высота между строками в абзаце
+/// @name lh-xs
+/// @group line-height
+/// @arg {number} $value -размер высоты между строками
+@mixin lh-xs($value){
+  @include xs(line-height, $value)
+}
+/// высота между строками в абзаце
+/// @name lh-md
+/// @group line-height
+/// @arg {number} $value -размер высоты между строками
+@mixin lh-md($value){
+  @include md(line-height, $value)
+}
+/// высота между строками в абзаце
+/// @name lh-lg
+/// @group line-height
+/// @arg {number} $value -размер высоты между строками
+@mixin lh-lg($value){
+  @include lg(line-height, $value)
+}

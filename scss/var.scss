@@ -1,0 +1,36 @@
+/// ширина медиа запроса на больших экранах.
+/// @name break_lg
+/// @group media
+$break_lg: 1100px;
+/// ширина медиа запроса на планшетах.
+/// @name break_md
+/// @group media
+$break_md: 960px;
+/// ширина медиа запроса на больших тлф.
+/// @name break_sm
+/// @group media
+$break_sm: 780px;
+/// ширина медиа запроса на тлф.
+/// @name break_xs
+/// @group media
+$break_xs: 560px;
+/// @name columns
+/// @group media
+$mediaumns: 12;
+
+/// ширина контейнера всего контента
+/// @name container-width
+/// @group base
+$container-width: 1170px;
+/// отступы контейнера всего контента
+/// @name container-offset
+/// @group base
+$container-offset: 30px;
+/// отступы элементов
+/// @name offset-grid
+/// @group add
+$offset-grid: 15px;
+/// Размер шрифта на html
+/// @name font_size
+/// @group base
+$font_size: 16px;

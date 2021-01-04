@@ -1,0 +1,39 @@
+@mixin grid-auto()
+  width: auto
+  max-width: 100%
+@mixin grid-auto-sm()
+  @include sm-block
+    width: auto
+    max-width: 100%
+@mixin grid-auto-xs()
+  @include xs-block
+    width: auto
+    max-width: 100%
+@mixin grid-auto-md()
+  @include md-block
+    width: auto
+    max-width: 100%
+@mixin grid-auto-lg()
+  @include lg-block
+    width: auto
+    max-width: 100%
+
+@mixin grid($n)
+  $val: 100% / $columns * $n
+  width: $val
+
+@mixin grid-xs($n)
+  $val: 100% / $columns * $n
+  @include xs(width, $val)
+
+@mixin grid-md($n)
+  $val: 100% / $columns * $n
+  @include md(width, $val)
+
+@mixin grid-sm($n)
+  $val: 100% / $columns * $n
+  @include sm(width, $val)
+
+@mixin grid-lg($n)
+  $val: 100% / $columns * $n
+  @include lg(width, $val)

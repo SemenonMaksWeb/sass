@@ -1,0 +1,28 @@
+/// Указать размер шрифта в пикселях
+/// @name fz
+/// @group font-size
+/// @arg {number} $value - размер шрифта
+@mixin fz($value){
+  font-size: $value
+}
+/// Указать размер шрифта в пикселях
+/// @name fz-xs
+/// @group font-size
+/// @arg {number} $value - размер шрифта
+@mixin fz-xs($value){
+  @include xs(font-size, $value)
+}
+/// Указать размер шрифта в пикселях
+/// @name fz-md
+/// @group font-size
+/// @arg {number} $value - размер шрифта
+@mixin fz-md($value){
+  @include md(font-size, $value)
+}
+/// Указать размер шрифта в пикселях
+/// @name fz-lg
+/// @group font-size
+/// @arg {number} $value - размер шрифта
+@mixin fz-lg($value){
+  @include lg(font-size, $value)
+}

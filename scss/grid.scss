@@ -1,0 +1,40 @@
+/// Ширина элемента
+/// @name grid
+/// @group grid
+/// @arg {number} $n - количество колонок от 1 до $columns
+@mixin grid($n) {
+  $val: 100% / $columns * $n;
+  width: $val;
+}
+/// Ширина элемента
+/// @name grid-xs
+/// @group grid
+/// @arg {number} $n - количество колонок от 1 до $columns
+@mixin grid-xs($n) {
+  $val: 100% / $columns * $n;
+  @include xs(width, $val)
+}
+/// Ширина элемента
+/// @name grid-md
+/// @group grid
+/// @arg {number} $n - количество колонок от 1 до $columns
+@mixin grid-md($n) {
+  $val: 100% / $columns * $n;
+  @include md(width, $val)
+}
+/// Ширина элемента
+/// @name grid-sm
+/// @group grid
+/// @arg {number} $n - количество колонок от 1 до $columns
+@mixin grid-sm($n) {
+  $val: 100% / $columns * $n;
+  @include sm(width, $val)
+}
+/// Ширина элемента
+/// @name grid-lg
+/// @group grid
+/// @arg {number} $n - количество колонок от 1 до $columns
+@mixin grid-lg($n) {
+  $val: 100% / $columns * $n;
+  @include lg(width, $val)
+}

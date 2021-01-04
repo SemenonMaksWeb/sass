@@ -1,0 +1,33 @@
+@import "var";
+html{
+  font-size: $font_size;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+img{
+  width: 100%;
+  height: auto;
+}
+.text-nowrap-custom{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.container{
+  max-width: $container-width;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: $offset-grid;
+  padding-right: $offset-grid;
+}
+.trim-text{
+  word-break: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}

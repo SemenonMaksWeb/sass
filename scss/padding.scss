@@ -1,0 +1,176 @@
+/// указать padding-top
+/// @group padding
+/// @name pt
+/// @param {number} value
+@mixin pt($value){
+  padding-top: $value
+}
+/// указать padding-top
+/// @group padding
+/// @name pt-xs
+/// @param {number} value
+@mixin pt-xs($value){
+  @include xs(padding-top, $value)
+}
+/// указать padding-top
+/// @group padding
+/// @name pt-md
+/// @param {number} value
+@mixin pt-md($value){
+  @include md(padding-top, $value)
+}
+/// указать padding-top
+/// @group padding
+/// @name pt-lg
+/// @param {number} value
+@mixin pt-lg($value){
+  @include lg(padding-top, $value)
+}
+/// указать padding-bottom
+/// @group padding
+/// @name pb
+/// @param {number} value
+@mixin pb($value){
+  padding-bottom: $value
+}
+/// указать padding-bottom
+/// @group padding
+/// @name pb-xs
+/// @param {number} value
+@mixin pb-xs($value){
+  @include xs(padding-bottom, $value)
+}
+/// указать padding-bottom
+/// @group padding
+/// @name pb-md
+/// @param {number} value
+@mixin pb-md($value){
+  @include md(padding-bottom, $value)
+}
+/// указать padding-bottom
+/// @group padding
+/// @name pb-lg
+/// @param {number} value
+@mixin pb-lg($value){
+  @include lg(padding-bottom, $value)
+}
+/// указать padding-left
+/// @group padding
+/// @name pl
+/// @param {number} value
+@mixin pl($value){
+  padding-left: $value
+}
+/// указать padding-left
+/// @group padding
+/// @name pl-xs
+/// @param {number} value
+@mixin pl-xs($value){
+  @include xs(padding-left, $value)
+}
+/// указать padding-left
+/// @group padding
+/// @name pl-md
+/// @param {number} value
+@mixin pl-md($value){
+  @include md(padding-left, $value)
+}
+/// указать padding-left
+/// @group padding
+/// @name pl-lg
+/// @param {number} value
+@mixin pl-lg($value){
+  @include lg(padding-left, $value)
+}
+/// указать padding-right
+/// @group padding
+/// @name pr
+/// @param {number} value
+@mixin pr($value){
+  padding-right: $value
+}
+/// указать padding-right
+/// @group padding
+/// @name pr-xs
+/// @param {number} value
+@mixin pr-xs($value){
+  @include xs(padding-right, $value)
+}
+/// указать padding-right
+/// @group padding
+/// @name pr-md
+/// @param {number} value
+@mixin pr-md($value){
+  @include md(padding-right, $value)
+}
+/// указать padding-right
+/// @group padding
+/// @name pr-lg
+/// @param {number} value
+@mixin pr-lg($value){
+  @include lg(padding-right, $value)
+}
+/// указать padding-right and  padding-left
+/// @group padding
+/// @name px
+/// @param {number} value
+@mixin px($value){
+  padding-left: $value;
+  padding-right: $value;
+}
+/// указать padding-right and  padding-left
+/// @group padding
+/// @name px-xs
+/// @param {number} value
+@mixin px-xs($value){
+  @include xs(padding-left, $value);
+  @include xs(padding-right, $value);
+}
+/// указать padding-right and  padding-left
+/// @group padding
+/// @name px-md
+/// @param {number} value
+@mixin px-md($value){
+  @include md(padding-left, $value);
+  @include md(padding-right, $value);
+}
+/// указать padding-right and  padding-left
+/// @group padding
+/// @name px-lg
+/// @param {number} value
+@mixin px-lg($value){
+  @include lg(padding-left, $value);
+  @include lg(padding-right, $value);
+}
+/// указать padding-top and  padding-bottom
+/// @group padding
+/// @name py
+/// @param {number} value
+@mixin py($value){
+  padding-top: $value;
+  padding-bottom: $value;
+}
+/// указать padding-top and  padding-bottom
+/// @group padding
+/// @name py-xs
+/// @param {number} value
+@mixin py-xs($value){
+  @include xs(padding-top, $value);
+  @include xs(padding-bottom, $value);
+}
+/// указать padding-top and  padding-bottom
+/// @group padding
+/// @name py-md
+/// @param {number} value
+@mixin py-md($value){
+  @include md(padding-top, $value);
+  @include md(padding-bottom, $value);
+}
+/// указать padding-top and  padding-bottom
+/// @group padding
+/// @name py-lg
+/// @param {number} value
+@mixin py-lg($value){
+  @include lg(padding-top, $value);
+  @include lg(padding-bottom, $value);
+}

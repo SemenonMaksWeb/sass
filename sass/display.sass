@@ -1,0 +1,15 @@
+@mixin d-display($value)
+  display: $value
+
+@mixin d-display-xs($value)
+  @include xs(display, $value)
+
+@mixin d-display-md($value)
+  @include md(display, $value)
+
+@mixin d-display-sm($n)
+  $val: 100% / $columns * $n
+   @include sm(display, $value)
+
+@mixin d-display-lg($value)
+  @include lg(display, $value)

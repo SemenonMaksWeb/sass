@@ -1,0 +1,56 @@
+/// @name lg-block 
+/// @group media
+@mixin lg-block(){
+  @media screen and (min-width: $break_lg){
+    @content; 
+  }
+}
+/// @name md-block 
+/// @group media
+@mixin md-block(){
+  @media screen and (min-width: $break_md){
+    @content; 
+  }
+}
+/// @name sm-block 
+/// @group media
+@mixin sm-block(){
+  @media screen and (min-width: $break_sm){
+    @content; 
+  }
+}
+/// @name xs-block 
+/// @group media
+@mixin xs-block(){
+  @media screen and (min-width: $break_xs){
+    @content; 
+  }
+}
+/// @name lg 
+/// @group media
+@mixin lg($name, $value){
+  @media screen and (min-width: $break_lg){
+    #{$name}: $value;
+  }
+}
+/// @name md 
+/// @group media
+@mixin md($name, $value){
+  @media  screen and (min-width: $break_md){
+    #{$name}: $value
+  }
+}
+/// @name sm 
+/// @group media
+@mixin sm($name, $value){
+  @media screen and (min-width: $break_sm){
+    #{$name}: $value;
+  }
+}
+/// @name xs 
+/// @group media
+@mixin xs($name, $value){
+  @media screen and (min-width: $break_xs){
+    #{$name}: $value;
+  }
+}

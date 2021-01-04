@@ -1,31 +1,31 @@
-=lg-block()
+@mixin lg-block()
   @media screen and (min-width: $break_lg)
     @content
 
-=md-block()
+@mixin md-block()
   @media screen and (min-width: $break_md)
     @content
 
-=sm-block()
+@mixin sm-block()
   @media screen and (min-width: $break_sm)
     @content
 
-=xs-block()
+@mixin xs-block()
   @media screen and (min-width: $break_xs)
     @content
 
-=lg($name, $value)
+@mixin lg($name, $value)
   @media screen and (min-width: $break_lg)
     #{$name}: $value
 
-=md($name, $value)
+@mixin md($name, $value)
   @media screen and (min-width: $break_md)
     #{$name}: $value
 
-=sm($name, $value)
+@mixin sm($name, $value)
   @media screen and (min-width: $break_sm)
     #{$name}: $value
 
-=xs($name, $value)
+@mixin xs($name, $value)
   @media screen and (min-width: $break_xs)
     #{$name}: $value

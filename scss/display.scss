@@ -1,0 +1,37 @@
+/// указать значение display 
+/// @name d-display
+/// @group display
+/// @arg {String} $value - все значения которые может принимать свойство display
+@mixin d-display($value){
+  display: $value
+}
+/// указать значение display 
+/// @name d-display-xs
+/// @group display
+/// @arg {String} $value - все значения которые может принимать свойство display
+@mixin d-display-xs($value){
+  @include xs(display, $value)
+}
+/// указать значение display 
+/// @name d-display-md
+/// @group display
+/// @arg {String} $value - все значения которые может принимать свойство display
+@mixin d-display-md($value){
+  @include md(display, $value)
+}
+   
+/// указать значение display 
+/// @name d-display-sm
+/// @group display
+/// @arg {String} $value - все значения которые может принимать свойство display
+@mixin d-display-sm($n){
+   @include sm(display, $value)
+}
+
+/// указать значение display 
+/// @name d-display-lg
+/// @group display
+/// @arg {String} $value - все значения которые может принимать свойство display
+@mixin d-display-lg($value){
+  @include lg(display, $value)
+}
