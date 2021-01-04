@@ -13,6 +13,13 @@
   @include xs(font-size, $value)
 }
 /// Указать размер шрифта в пикселях
+/// @name fz-sm
+/// @group font-size
+/// @arg {number} $value - размер шрифта
+@mixin fz-sm($value){
+  @include sm(font-size, $value)
+}
+/// Указать размер шрифта в пикселях
 /// @name fz-md
 /// @group font-size
 /// @arg {number} $value - размер шрифта

@@ -21,11 +21,19 @@
 }
 /// указать margin-top
 /// @group margin
+/// @name mt-sm
+/// @param {number} value
+@mixin mt-sm($value){
+  @include sm(margin-top, $value)
+}
+/// указать margin-top
+/// @group margin
 /// @name mt-lg
 /// @param {number} value
 @mixin mt-lg($value){
   @include lg(margin-top, $value)
 }
+
 /// указать margin-bottom
 /// @group margin
 /// @name mb
@@ -49,6 +57,13 @@
 }
 /// указать margin-bottom
 /// @group margin
+/// @name mb-sm
+/// @param {number} value
+@mixin mb-sm($value){
+  @include sm(margin-bottom, $value)
+}
+/// указать margin-bottom
+/// @group margin
 /// @name mb-lg
 /// @param {number} value
 @mixin mb-lg($value){
@@ -58,6 +73,7 @@
 /// @group margin
 /// @name ml
 /// @param {number} value
+
 @mixin ml($value){
   margin-left: $value
 }
@@ -74,6 +90,13 @@
 /// @param {number} value
 @mixin ml-md($value){
   @include md(margin-left, $value)
+}
+/// указать margin-left
+/// @group margin
+/// @name ml-sm
+/// @param {number} value
+@mixin ml-sm($value){
+  @include sm(margin-left, $value)
 }
 /// указать margin-left
 /// @group margin
@@ -102,6 +125,13 @@
 /// @param {number} value
 @mixin mr-md($value){
   @include md(margin-right, $value)
+}
+/// указать margin-right
+/// @group margin
+/// @name mr-sm
+/// @param {number} value
+@mixin mr-sm($value){
+  @include sm(margin-right, $value)
 }
 /// указать margin-right
 /// @group margin
@@ -136,6 +166,14 @@
 }
 /// указать margin-right and  margin-left
 /// @group margin
+/// @name mx-sm
+/// @param {number} value
+@mixin mx-sm($value){
+  @include sm(margin-left, $value);
+  @include sm(margin-right, $value);
+}
+/// указать margin-right and  margin-left
+/// @group margin
 /// @name mx-lg
 /// @param {number} value
 @mixin mx-lg($value){
@@ -165,6 +203,14 @@
 @mixin my-md($value){
   @include md(margin-top, $value);
   @include md(margin-bottom, $value);
+}
+/// указать margin-top and  margin-bottom
+/// @group margin
+/// @name my-sm
+/// @param {number} value
+@mixin my-sm($value){
+  @include sm(margin-top, $value);
+  @include sm(margin-bottom, $value);
 }
 /// указать margin-top and  margin-bottom
 /// @group margin

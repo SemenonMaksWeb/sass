@@ -17,6 +17,13 @@
   @include xs(line-height, $value)
 }
 /// высота между строками в абзаце
+/// @name lh-sm
+/// @group line-height
+/// @arg {number} $value -размер высоты между строками
+@mixin lh-sm($value){
+  @include sm(line-height, $value)
+}
+/// высота между строками в абзаце
 /// @name lh-md
 /// @group line-height
 /// @arg {number} $value -размер высоты между строками

@@ -1,0 +1,43 @@
+@import "../../sass/index-class.sass"
+@import "../../sass/index.sass"
+.row-no
+    @include row-no-gutters()
+.row
+    @include row()
+    @include align-items-start()
+.col-3
+    @include fz(35px)
+    @include fz-xs(25px)
+    @include fz-sm(10px)
+    @include fz-md(15px)
+    @include fz-lg(10px)
+    @include col(12)
+    @include col-xs(8)
+    @include col-sm(6)
+    @include col-md(4)
+    @include col-lg(3)
+    @include col-margin()
+    @include my-xs(auto)
+    border: 1px solid red
+    @include my(10px)
+    @include my-xs(20px)
+    @include my-sm(15px)
+    @include my-md(30px)
+    @include my-lg(0px)
+    &:last-child
+        @include my-xs(auto)
+        @include my(0px)
+.grid-3
+    @include grid(12)
+    @include grid-xs(8)
+    @include grid-sm(6)
+    @include grid-md(4)
+    @include grid-lg(3)
+    @include my-xs(auto)
+    @include col-padding()
+    text-align: right
+.display-block-none
+    @include d-display(block)
+    @include d-display-xs(none)
+    @include d-display-md(flex)
+    @include d-display-lg(none)

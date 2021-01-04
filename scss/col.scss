@@ -4,7 +4,7 @@
 /// @arg {number} $n - количество колонок от 1 до $columns
 @mixin col($n) {
   $val: 100% / $columns * $n;
-  width: calc($val - $offset-grid * 2);
+  width: calc(#{$val} - #{$offset-grid} * 2);
 }
 /// Ширина элемента с уменьшением offset-grid
 /// @name col-xs
@@ -12,7 +12,7 @@
 /// @arg {number} $n - количество колонок от 1 до $columns
 @mixin col-xs($n) {
   $val: 100% / $columns * $n;
-  @include xs(width, calc($val - $offset-grid * 2))
+  @include xs(width, calc(#{$val} - #{$offset-grid} * 2))
 }
 /// Ширина элемента с уменьшением offset-grid
 /// @name col-md
@@ -20,7 +20,7 @@
 /// @arg {number} $n - количество колонок от 1 до $columns
 @mixin col-md($n) {
   $val: 100% / $columns * $n;
-  @include md(width, calc($val - $offset-grid * 2))
+  @include md(width, calc(#{$val} - #{$offset-grid} * 2))
 }
 /// Ширина элемента с уменьшением offset-grid
 /// @name col-sm
@@ -28,7 +28,7 @@
 /// @arg {number} $n - количество колонок от 1 до $columns
 @mixin col-sm($n) {
   $val: 100% / $columns * $n;
-  @include sm(width, calc($val - $offset-grid * 2))
+  @include sm(width, calc(#{$val} - #{$offset-grid} * 2))
 }
 /// Ширина элемента с уменьшением offset-grid
 /// @name col-lg
@@ -36,5 +36,5 @@
 /// @arg {number} $n - количество колонок от 1 до $columns
 @mixin col-lg($n) {
   $val: 100% / $columns * $n;
-  @include lg(width, calc($val - $offset-grid * 2))
+  @include lg(width, calc(#{$val} - #{$offset-grid} * 2))
 }

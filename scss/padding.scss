@@ -21,11 +21,19 @@
 }
 /// указать padding-top
 /// @group padding
+/// @name pt-sm
+/// @param {number} value
+@mixin pt-sm($value){
+  @include sm(padding-top, $value)
+}
+/// указать padding-top
+/// @group padding
 /// @name pt-lg
 /// @param {number} value
 @mixin pt-lg($value){
   @include lg(padding-top, $value)
 }
+
 /// указать padding-bottom
 /// @group padding
 /// @name pb
@@ -49,6 +57,13 @@
 }
 /// указать padding-bottom
 /// @group padding
+/// @name pb-sm
+/// @param {number} value
+@mixin pb-sm($value){
+  @include sm(padding-bottom, $value)
+}
+/// указать padding-bottom
+/// @group padding
 /// @name pb-lg
 /// @param {number} value
 @mixin pb-lg($value){
@@ -58,6 +73,7 @@
 /// @group padding
 /// @name pl
 /// @param {number} value
+
 @mixin pl($value){
   padding-left: $value
 }
@@ -74,6 +90,13 @@
 /// @param {number} value
 @mixin pl-md($value){
   @include md(padding-left, $value)
+}
+/// указать padding-left
+/// @group padding
+/// @name pl-sm
+/// @param {number} value
+@mixin pl-sm($value){
+  @include sm(padding-left, $value)
 }
 /// указать padding-left
 /// @group padding
@@ -102,6 +125,13 @@
 /// @param {number} value
 @mixin pr-md($value){
   @include md(padding-right, $value)
+}
+/// указать padding-right
+/// @group padding
+/// @name pr-sm
+/// @param {number} value
+@mixin pr-sm($value){
+  @include sm(padding-right, $value)
 }
 /// указать padding-right
 /// @group padding
@@ -136,6 +166,14 @@
 }
 /// указать padding-right and  padding-left
 /// @group padding
+/// @name px-sm
+/// @param {number} value
+@mixin px-sm($value){
+  @include sm(padding-left, $value);
+  @include sm(padding-right, $value);
+}
+/// указать padding-right and  padding-left
+/// @group padding
 /// @name px-lg
 /// @param {number} value
 @mixin px-lg($value){
@@ -165,6 +203,14 @@
 @mixin py-md($value){
   @include md(padding-top, $value);
   @include md(padding-bottom, $value);
+}
+/// указать padding-top and  padding-bottom
+/// @group padding
+/// @name py-sm
+/// @param {number} value
+@mixin py-sm($value){
+  @include sm(padding-top, $value);
+  @include sm(padding-bottom, $value);
 }
 /// указать padding-top and  padding-bottom
 /// @group padding
