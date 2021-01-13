@@ -51,52 +51,52 @@
 /// @name justify-content-start
 /// @group flex-justify-content 
 @mixin justify-content-start(){
-  justify-content: start
+  justify-content: flex-start
 }
 /// @name justify-lg-content-start
 /// @group flex-justify-content 
 @mixin justify-lg-content-start(){
-  @include lg(justify-content, start)
+  @include lg(justify-content, flex-start)
 }
 /// @name justify-md-content-start
 /// @group flex-justify-content 
 @mixin justify-md-content-start(){
-  @include md(justify-content, start)
+  @include md(justify-content, flex-start)
 }  
 /// @name justify-sm-content-start
 /// @group flex-justify-content 
 @mixin justify-sm-content-start(){
-  @include sm(justify-content, start)
+  @include sm(justify-content, flex-start)
 } 
 /// @name justify-xs-content-start
 /// @group flex-justify-content
 @mixin justify-xs-content-start(){
-  @include xs(justify-content, start)
+  @include xs(justify-content, flex-start)
 } 
 /// @name justify-content-end
 /// @group flex-justify-content
 @mixin justify-content-end(){
-  justify-content: end
+  justify-content: flex-end
 }
 /// @name justify-lg-content-end
 /// @group flex-justify-content
 @mixin justify-lg-content-end(){
-  @include lg(justify-content, end)
+  @include lg(justify-content, flex-end)
 }
 /// @name justify-md-content-end
 /// @group flex-justify-content
 @mixin justify-md-content-end(){
-  @include md(justify-content, end)
+  @include md(justify-content, flex-end)
 }
 /// @name justify-sm-content-end
 /// @group flex-justify-content
 @mixin justify-sm-content-end(){
-  @include sm(justify-content, end)
+  @include sm(justify-content, flex-end)
 }
 /// @name justify-xs-content-end
 /// @group flex-justify-content
 @mixin justify-xs-content-end(){
-  @include xs(justify-content, end)
+  @include xs(justify-content, flex-end)
 }
 /// @name justify-content-center
 /// @group flex-justify-content
@@ -181,47 +181,47 @@
 /// @name align-lg-items-start
 /// @group flex-align-items
 @mixin align-lg-items-start(){
-  @include lg(align-items, start)
+  @include lg(align-items, flex-start)
 }
 /// @name align-md-items-start
 /// @group flex-align-items
 @mixin align-md-items-start(){
-  @include md(align-items, start)
+  @include md(align-items, flex-start)
 }
 /// @name align-sm-items-start
 /// @group flex-align-items
 @mixin align-sm-items-start(){
-  @include sm(align-items, start)
+  @include sm(align-items, flex-start)
 }
 /// @name align-xs-items-start
 /// @group flex-align-items
 @mixin align-xs-items-start(){
-  @include xs(align-items, start)
+  @include xs(align-items, flex-start)
 }
 /// @name align-items-end
 /// @group flex-align-items
 @mixin align-items-end(){
-  align-items: end
+  align-items: flex-end
 }
 /// @name align-lg-items-end
 /// @group flex-align-items
 @mixin align-lg-items-end(){
-  @include lg(align-items, end)
+  @include lg(align-items, flex-end)
 }
 /// @name align-md-items-end
 /// @group flex-align-items
 @mixin align-md-items-end(){
-  @include md(align-items, end)
+  @include md(align-items, flex-end)
 }
 /// @name align-sm-items-end
 /// @group flex-align-items
 @mixin align-sm-items-end(){
-  @include sm(align-items, end)
+  @include sm(align-items, flex-end)
 }
 /// @name align-xs-items-end
 /// @group flex-align-items
 @mixin align-xs-items-end(){
-  @include xs(align-items, end)
+  @include xs(align-items, flex-end)
 }
 /// @name align-items-center
 /// @group flex-align-items

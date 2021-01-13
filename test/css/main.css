@@ -45,7 +45,7 @@ img {
   margin-right: -15px;
   display: flex;
   flex-wrap: wrap;
-  align-items: start;
+  align-items: flex-start;
 }
 
 .col-3 {
@@ -73,6 +73,8 @@ img {
 .display-block-none {
   display: block;
 }
+
+/*# sourceMappingURL=test/index.css.map */
 
 @media screen and (min-width: 560px) {
   .col-3 {

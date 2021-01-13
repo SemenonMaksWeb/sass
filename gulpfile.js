@@ -13,7 +13,7 @@ var sassdocOptions = {
   };
 
 var paths = {
-  sass: [
+  scss: [
     'scss/**/*.scss'
   ]
 };
@@ -23,7 +23,7 @@ gulp.task('watch', function () {
 
 gulp.task('sassdoc', function () {
   console.log("sassdoc task finished");
-  return gulp.src(paths.sass)
+  return gulp.src(paths.scss)
     .pipe(sassdoc());
 });
 
@@ -34,7 +34,7 @@ gulp.task('sass-compile', function () {
       .pipe(sourcemaps.write('./test'))
       .pipe(concat('main.css'))
       .pipe(gulp.dest('test/css/')
-      .pipe(gcmq))
+      )
 })
 
 gulp.task('watch', function () {
